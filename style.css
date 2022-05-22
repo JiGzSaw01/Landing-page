@@ -1,0 +1,45 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.right_link ul {
+    display: flex;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 60px;
+
+}
