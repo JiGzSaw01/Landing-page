@@ -3,26 +3,30 @@
 }
 
 body {
+
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    padding: 0 100px;
 }
+
+
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .right_link ul {
     display: flex;
     gap: 10px;
-    padding-right: 20px;
+
 }
 
 
@@ -31,16 +35,23 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 100px;
 
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 
 
-.container {
+.containerB {
     display: flex;
     flex-wrap: wrap;
     width: 300px;
-    margin: 0 60px;
+
 
 }
 
@@ -68,9 +79,45 @@ ul {
     gap: 52px;
 }
 
-.info {}
-
 .box {
 
-    border: 5px solid blue;
+    border: 3px solid blue;
+    height: 100px;
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.storycard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    min-height: 400px;
+
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+
+}
+
+.quote .author {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    font-size: 18px;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
 }
