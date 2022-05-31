@@ -1,5 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+
 }
 
 body {
@@ -13,7 +15,10 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 300px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
 }
 
 
@@ -25,7 +30,10 @@ ul {
 
 .right_link ul {
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #e5e7eb;
 
 }
 
@@ -35,7 +43,10 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 300px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    min-height: 200px;
 
 }
 
@@ -50,10 +61,19 @@ ul {
 .containerB {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 400px;
+
 
 
 }
+
+.containerB h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+
 
 .heroBanner,
 .header {
@@ -66,6 +86,7 @@ ul {
     border-radius: 5px;
     padding: 5px;
     margin: 10px 0;
+
 }
 
 .title {
@@ -82,8 +103,8 @@ ul {
 .box {
 
     border: 3px solid blue;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 
 .footer {
@@ -119,5 +140,6 @@ ul {
 }
 
 img {
-    width: 200px;
+    width: 550px;
+    height: 300px;
 }
