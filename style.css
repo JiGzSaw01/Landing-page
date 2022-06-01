@@ -15,7 +15,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 300px;
+    padding: 0 430px;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 800;
@@ -43,7 +43,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 300px;
+    padding: 0 430px;
     padding-bottom: 70px;
     padding-top: 30px;
     min-height: 200px;
@@ -73,7 +73,9 @@ ul {
     color: #F9FAF8;
 }
 
-
+.hero-p {
+    color: #e5e7eb;
+}
 
 .heroBanner,
 .header {
@@ -81,30 +83,44 @@ ul {
 }
 
 .heroBanner button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882F6;
     border: 0;
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px 32px;
     margin: 10px 0;
+    color: #e5e7eb;
+    font-weight: 800;
 
 }
 
 .title {
     text-align: center;
-    margin-bottom: 20px;
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    width: 100%;
+
 }
 
 .threebox {
     display: flex;
     justify-content: center;
     gap: 52px;
+    padding-bottom: 65px;
 }
 
 .box {
-
-    border: 3px solid blue;
-    height: 200px;
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
 }
 
 .footer {
@@ -142,4 +158,59 @@ ul {
 img {
     width: 550px;
     height: 300px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 450px;
+
+}
+
+.footersignup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.content {
+
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1150px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.parag {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 0 142px;
+}
+
+.content .parag p {
+    color: #e5e7eb;
+
+
+}
+
+.content .parag h1 {
+    color: #F9FAF8;
+    font-weight: 800;
+
+}
+
+.content button {
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 10px 50px;
 }
