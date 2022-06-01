@@ -127,6 +127,11 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    height: 7vh;
+    color: #e5e7eb;
+    font-weight: 800;
+    font-size: 15px;
 }
 
 .storycard {
